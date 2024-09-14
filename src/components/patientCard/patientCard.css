@@ -1,0 +1,26 @@
+.patient {
+	display:flex;
+	justify-content: space-between;
+	width: 27rem;
+	height: 12rem auto;
+	padding: 20px;
+	background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	align-items: center;
+    font-family: 'Montserrat';
+}
+.patient:hover{
+	box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.completed {
+    background-color: greenyellow;
+    padding: 12px;
+    border-radius: 16px;
+    margin-bottom: 12px;
+    width: 50%;
+    text-decoration: line-through;
+    font-family: 'Montserrat';
+}

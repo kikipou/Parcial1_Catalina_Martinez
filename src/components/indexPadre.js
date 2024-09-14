@@ -1,0 +1,1 @@
+export { default as PatientsBoard } from "./patientsBoard/patientsBoard.js"
